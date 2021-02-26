@@ -1,0 +1,40 @@
+header .pre-header {
+  background: url("../img/velo/logo.png"), black;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.items-wrapper {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+
+.item {
+  max-width: calc(25% - 50px);
+  margin-bottom: 50px;
+  font-size: 1.5rem;
+}
+.item .title {
+  margin-bottom: 0.8rem;
+}
+.item .cost span {
+  font-weight: 600;
+  margin-left: 0.5rem;
+}
+.item .image-slider img {
+  max-width: 100%;
+  object-fit: cover;
+}
+.item .image-slider .slick-dots {
+  bottom: 10px;
+}
+.item .image-slider .slick-dots li button:before {
+  font-size: 22px;
+  color: white;
+}
+.item .slick-dotted.slick-slider {
+  margin-bottom: 10px !important;
+}

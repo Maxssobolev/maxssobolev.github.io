@@ -1,0 +1,11 @@
+.items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.items div {
+  max-width: 30%;
+}
+.items div img {
+  max-width: 70%;
+}
